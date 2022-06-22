@@ -39,7 +39,7 @@ int division(int *array, int s, int last, size_t size)
 			}
 		}
 	}
-	if (array[last != array[i + 1]])
+	if (array[last] != array[i + 1])
 	{
 		swap(&array[i + 1], &array[last], size, array);
 	}
